@@ -126,3 +126,10 @@ footer a:hover {
     0 0 20px #FFCC00,
     0 0 40px #FFB700;
 }
+body, h1, footer, .btn {
+  user-select: none;         
+  -webkit-user-select: none; 
+  -moz-user-select: none;    
+  -ms-user-select: none;    
+}
+
