@@ -1,0 +1,111 @@
+body {
+  text-align: center;
+  background: linear-gradient(135deg, #222, #444);
+
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  margin: 5%;
+  color: #FEF2BF;
+  text-shadow:
+    0 0 5px #FEF2BF,
+    0 0 10px #FEEA85,
+    0 0 20px #FFD966,
+    0 0 40px #FFCC00;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: rgb(200, 19, 19);
+  opacity: 0.9;
+}
+
+.red {
+  background-color: #FF6B6B;
+}
+
+.green {
+  background-color: #6BCB77;
+}
+
+.blue {
+  background-color: #4D96FF;
+}
+
+.yellow {
+  background-color: #FFD93D;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: #213439;
+}
+
+.footer {
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  background: linear-gradient(135deg, #222, #444);
+  color: #0ff;
+  /* neon cyan text */
+  text-align: center;
+  padding: 20px;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 14px;
+
+  /* neon glow */
+  text-shadow:
+    0 0 5px #0ff,
+    0 0 10px #0ff,
+    0 0 20px #0ff,
+    0 0 40px #0ff;
+}
+
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #FEF2BF;
+  text-shadow: #989173 0px 0px 20px;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+footer a:hover {
+  color: white;
+  text-shadow:
+    0 0 5px #FEF2BF,
+    0 0 10px #FFD966,
+    0 0 20px #FFCC00,
+    0 0 40px #FFB700;
+}
